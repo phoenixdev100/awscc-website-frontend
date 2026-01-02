@@ -1,0 +1,37 @@
+# Robots.txt for AWS Cloud Club Sharda University
+# Website: https://awscc.dev
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://awscc.dev/sitemap.xml
+
+# Allow all search engines to crawl the entire site
+# This helps with SEO and discoverability
+
+# Crawl delay (optional - helps prevent server overload)
+Crawl-delay: 1
+
+# Allow specific paths that are important for SEO
+Allow: /src/
+Allow: /assets/
+Allow: /images/
+Allow: /logo.jpg
+
+# Block any sensitive or unnecessary paths (if any exist in future)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow social media crawlers
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
